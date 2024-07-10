@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar ul {
+    background-color: rgb(95, 94, 94);
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar li {
+    flex: 1;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: rgb(41, 40, 40);
+}
+
+#home .box1 {
+    background-image: url("bicycle-2756269.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box1 h1 {
+    font-size: 3rem;
+}
+
+.box1 p {
+    font-size: 1.5rem;
+}
+
+#tours .box2 {
+    background-image: url("nature-2990060.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore, .adventure, .relax {
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(47, 46, 46, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+}
+
+.explore img, .adventure img, .relax img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.explore:hover{
+    background-color: rgba(20, 19, 19, 0.5); 
+    cursor: pointer;
+} 
+.adventure:hover{
+    background-color: rgba(20, 19, 19, 0.5); 
+    cursor: pointer;
+}
+.relax:hover{
+    background-color: rgba(20, 19, 19, 0.5);
+    cursor: pointer; 
+}
+
+
+
+#about {
+    background-image: url("nature-7189418.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 100px 20px;
+    height: 700px;
+    
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+#contact .contact-form{
+    background-color: rgba(47, 46, 46, 0.5);
+    background-image: url("seo-7092133.png");
+    padding: 50px 20px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.contact p, .contact input, .contact textarea {
+    font-size: 1rem;
+    color: white;
+    margin: 10px 0;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a6a5a5;
+    border-radius: 5px;
+    background-color: #e5e2e2;
+}
+
+.contact button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d34e4e;
+    color: white;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
